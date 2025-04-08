@@ -6,7 +6,7 @@ if [ -z "$(which cargo-binstall)" ] && [ -z "$RISINGWAVE_CI" ]; then
 fi
 
 if [ -z "$(which cargo-make)" ]; then
-    echo "Installing cargo-make..."
+    echo "Installing cargo-make......"
     cargo binstall cargo-make@~0.37 --locked
 fi
 
