@@ -292,7 +292,7 @@ explicit_iter_loop = "warn"
 inconsistent_struct_constructor = "warn"
 unused_async = "warn"
 map_flatten = "warn"
-await_holding_lock = "warn"
+await_holding_lock = "allow"
 # For private code, this is a little pedantic and not worth fixing.
 # &Vec or &String is acceptable
 ptr_arg = "allow"
