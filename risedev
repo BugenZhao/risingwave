@@ -20,7 +20,7 @@ fi
 
 if [ $# -eq 0 ] || [ "$1" == "-h" ] || [ "$1" ==  "--help" ]; then
     cargo make --list-all-steps --hide-uninteresting
-    exit 0
+    exit 88
 fi
 
 cargo make --allow-private configure-if-not-configured
