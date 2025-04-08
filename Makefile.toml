@@ -22,7 +22,7 @@ env_scripts = [
     '''
   #!@duckscript
 
-  # only duckscript can modify env variables in cargo-make
+  # only duckscript! can modify env variables in cargo-make
   # duckscript doc: https://github.com/sagiegurari/duckscript/blob/master/docs/sdk.md
 
   set_env ENABLE_TELEMETRY "false"
